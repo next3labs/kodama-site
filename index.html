@@ -37,10 +37,21 @@
   <div class="card">
     <h2>Support</h2>
     <p>Questions, feedback, or something not working? Email
-    <a href="mailto:support@kodamajournal.app">support@kodamajournal.app</a> — a human reads it.</p>
+    <span class="mail" translate="no">support<span>&#64;</span>kodamajournal<span>&#46;</span>app</span> — a human reads it.</p>
   </div>
 
   <footer>Kodama · a feelsrealco product · Singapore</footer>
 </main>
+<script>
+  // The address above is plain text (entity-split) so it stays readable with JS
+  // off — Cloudflare rewrites any raw mailto:/address into /cdn-cgi/l/email-protection,
+  // which an App Review engineer without JS cannot read. This only upgrades to a click.
+  document.querySelectorAll('.mail').forEach(function (el) {
+    el.style.cursor = 'pointer'; el.style.textDecoration = 'underline';
+    el.addEventListener('click', function () {
+      window.location.href = 'mail' + 'to:' + el.textContent.trim();
+    });
+  });
+</script>
 </body>
 </html>

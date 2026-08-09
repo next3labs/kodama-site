@@ -50,8 +50,18 @@
 <h2>Changes</h2>
 <p>If this policy ever changes, the new version will be posted at this address with a new effective date. Because the app collects nothing, we expect changes to be rare and boring.</p>
 <h2>Contact</h2>
-<p>feelsrealco — <a href="mailto:support@kodamajournal.app">support@kodamajournal.app</a></p>
+<p>feelsrealco — <span class="mail" translate="no">support<span>&#64;</span>kodamajournal<span>&#46;</span>app</span></p>
   </div>
 </main>
+<script>
+  // Plain-text (entity-split) address stays readable with JS off; Cloudflare's
+  // email obfuscation would otherwise hide it behind /cdn-cgi/l/email-protection.
+  document.querySelectorAll('.mail').forEach(function (el) {
+    el.style.cursor = 'pointer'; el.style.textDecoration = 'underline';
+    el.addEventListener('click', function () {
+      window.location.href = 'mail' + 'to:' + el.textContent.trim();
+    });
+  });
+</script>
 </body>
 </html>
