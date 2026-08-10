@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>Kodama — Blog</title>
+  <link>https://kodamajournal.app/blog/</link>
+  <description>Notes on one-word journaling, privacy-first design, and building Kodama.</description>
+  <language>en</language>
+  <!-- <item> entries land here as essays publish. -->
+</channel>
+</rss>
