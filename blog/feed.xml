@@ -6,5 +6,15 @@
   <description>Notes on one-word journaling, privacy-first design, and building Kodama.</description>
   <language>en</language>
   <!-- <item> entries land here as essays publish. -->
+  <item>
+    <title>Why one word</title>
+    <link>https://kodamajournal.app/blog/why-one-word/</link>
+    <guid>https://kodamajournal.app/blog/why-one-word/</guid>
+    <pubDate>Wed, 12 Aug 2026 08:00:00 +0800</pubDate>
+    <description>Every journaling app I ever installed died the same way. Not dramatically — quietly.
+Day one, three paragraphs. Day four, one paragraph, mostly apology. Day nine, the
+notification arrives and I feel a small, specific guilt, and I swipe it away. The a</description>
+  </item>
+
 </channel>
 </rss>
