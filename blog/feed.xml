@@ -7,6 +7,22 @@
   <language>en</language>
   <!-- <item> entries land here as essays publish. -->
   <item>
+    <title>Why there are no numbers in the forest</title>
+    <link>https://kodamajournal.app/blog/no-numbers-in-the-forest/</link>
+    <guid>https://kodamajournal.app/blog/no-numbers-in-the-forest/</guid>
+    <pubDate>Tue, 25 Aug 2026 08:00:00 +0800</pubDate>
+    <description>Every social feature I&#x27;ve ever used eventually turned into a scoreboard. It never announces itself that way. It starts as a nice idea — let people see each other — and then someone adds a count, because a count is easy to build and impossible to look</description>
+  </item>
+
+  <item>
+    <title>Twelve trees, one year</title>
+    <link>https://kodamajournal.app/blog/twelve-trees-one-year/</link>
+    <guid>https://kodamajournal.app/blog/twelve-trees-one-year/</guid>
+    <pubDate>Tue, 25 Aug 2026 08:00:00 +0800</pubDate>
+    <description>A tree can only hold so much before it stops meaning anything. I found this out by building the wrong version first.</description>
+  </item>
+
+  <item>
     <title>A hard day is not a broken streak</title>
     <link>https://kodamajournal.app/blog/a-hard-day-is-not-a-broken-streak/</link>
     <guid>https://kodamajournal.app/blog/a-hard-day-is-not-a-broken-streak/</guid>
